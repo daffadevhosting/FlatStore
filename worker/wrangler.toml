@@ -1,0 +1,20 @@
+name = "flatstore-api"
+main = "index.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+MIDTRANS_IS_PRODUCTION = "false"
+ADMIN_FRONTEND_ORIGIN = "http://localhost:3000"
+
+# Create a namespace first, then uncomment and fill in its ID:
+# npx wrangler kv namespace create PRODUCTS_KV
+# [[kv_namespaces]]
+# binding = "PRODUCTS_KV"
+# id = "replace-with-production-namespace-id"
+
+# Set these secrets via `wrangler secret put`:
+# - MIDTRANS_SERVER_KEY
+# - MIDTRANS_CLIENT_KEY
+# - TELEGRAM_BOT_TOKEN
+# - TELEGRAM_CHAT_ID
+# - RAJAONGKIR_API_KEY
