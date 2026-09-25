@@ -1,5 +1,5 @@
 {
-  "name": "flatstore-frontend",
+  "name": "flatstore",
   "private": true,
   "type": "module",
   "scripts": {
